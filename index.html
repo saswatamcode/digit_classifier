@@ -11,7 +11,7 @@
       class="btn"
       type="button"
       value="classify"
-      id="sb"
+      id="classb"
       size="48"
       style="left: 100;"
     />
@@ -23,6 +23,10 @@
       size="23"
       style="left: 180;"
     />
+    <div style="margin-top: 400px;">
+      <h2 id="trainlabel">Training...</h2>
+      <h2 id="prediction"></h2>
+    </div>
     <script src="data.js" type="module"></script>
     <script src="index.js" type="module"></script>
     <style>
@@ -32,6 +36,16 @@
       h1 {
         margin-left: 5%;
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      h2 {
+        margin-left: 5%;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      #prediction {
+        margin-left: 5%;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: red;
+        font-size: 40px;
       }
       .btn {
         position: absolute;
