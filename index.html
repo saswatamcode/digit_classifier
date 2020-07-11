@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis"></script>
+  </head>
+  <body>
+    <h1>Handwritten Digit Classifier</h1>
+    <canvas id="canvas" width="280" height="280"></canvas>
+    <img id="canvasimg" />
+    <input
+      class="btn"
+      type="button"
+      value="classify"
+      id="sb"
+      size="48"
+      style="left: 100;"
+    />
+    <input
+      class="btn"
+      type="button"
+      value="clear"
+      id="cb"
+      size="23"
+      style="left: 180;"
+    />
+    <script src="data.js" type="module"></script>
+    <script src="index.js" type="module"></script>
+    <style>
+      body {
+        margin: 0;
+      }
+      h1 {
+        margin-left: 5%;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .btn {
+        position: absolute;
+        top: 400;
+        color: white;
+        background-color: black;
+        border-radius: 10px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      #canvas {
+        position: absolute;
+        top: 100;
+        left: 100;
+        border: 8px solid;
+      }
+      #canvasimg {
+        position: absolute;
+        top: 10%;
+        left: 52%;
+        width: 280;
+        height: 280;
+        display: none;
+      }
+    </style>
+  </body>
+</html>
