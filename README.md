@@ -6,6 +6,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/saswatamcode/digit_classifier?style=social)](https://GitHub.com/saswatamcode/digit_classifier/stargazers/)
 [![GitHub issues](https://img.shields.io/github/issues/saswatamcode/digit_classifier.svg)](https://GitHub.com/saswatamcode/digit_classifier/issues/)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b359025a-c2fb-46c0-a816-d56eeb94ce45/deploy-status)](https://app.netlify.com/sites/digitclassifier/deploys)
 
 # Handwritten Digit Classifier
 A web app which uses TensorFlow.js to train a model on the MNIST dataset and then classify handwritten digits.
@@ -19,3 +20,5 @@ Also uses tfjs-vis to visualize training. Currently only works for desktop brows
 - Run `npm i serve` or some other alternative
 - Visit `localhost:5000` and wait for training to complete
 - Draw your digits and see them get classified
+
+A demo is hosted [here](https://digitclassifier.netlify.app/).
